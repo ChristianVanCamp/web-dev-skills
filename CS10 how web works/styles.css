@@ -1,0 +1,91 @@
+/*style sheet for Web Dev Skills page*/
+
+html {
+    background-image: url("images/leaf-background.jpg")
+}
+
+/*text styles*/
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1 {
+    color: white;
+    text-align:center;
+    letter-spacing: 2px;
+    
+}
+
+
+div {
+    border: 2px solid #E44D26;
+    border-radius: 25px;
+    box-shadow: 2px 2px rgb(231, 97, 64);
+    width: 600px;
+    margin: 50px auto;
+    padding: 40px 75px;
+    background-color: white
+}
+
+h2 {
+    font-variant: small-caps;
+}
+P, ul {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px
+ }
+
+ span { 
+    font-family: Papyrus;
+}
+
+.html {
+    border: 2px solid #e44d26;
+    box-shadow: 2px 2px rgb(231, 97, 64);
+}
+
+.css {
+    border: 2px solid rgb(1,112,186);
+    box-shadow: 2px 2px rgb(1,112,186);
+}
+
+.js {
+    border: 2px solid #f7df1e;
+    box-shadow: 2px 2px #f7df1e;
+}
+
+/* Tutorial notes*/
+
+.tutorial { 
+
+font-size: 12px
+
+}
+    /* link styles*/
+
+a { 
+    color:#0000cc;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration:underline;
+
+}
+
+p:hover {
+
+    color:red
+}
+/*Image Style*/
+
+img {
+    width: 30 px;
+    height: 30 px;
+    vertical-align: middle;
+}
+
+
+
